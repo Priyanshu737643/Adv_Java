@@ -20,10 +20,11 @@ public class p21 extends JFrame {
         setVisible(true);
         setTitle("Addition and Subtraction");
         // setLayout(new FlowLayout());
-        setLayout(new GridLayout(4, 2));
-        add(l1);add(tf1);
-        add(l2);add(tf2);
-        add(b1);add(b2);
+        // setLayout(new GridLayout(4, 2));
+        // setLayout(new BorderLayout());  //? default layout
+        add(l1, BorderLayout.NORTH);add(tf1, BorderLayout.SOUTH);
+        add(l2, BorderLayout.EAST);add(tf2, BorderLayout.WEST);
+        add(b1, BorderLayout.CENTER);add(b2);
         add(l3);add(tf3);
     }
     public static void main(String[] args) {
