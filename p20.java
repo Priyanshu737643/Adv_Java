@@ -1,4 +1,4 @@
-// WAP to
+// FLowLayout  -  JFrame, JLabel, JTextField, JButton, ActionListener
 import javax.swing.*;
 import java.awt.*; //? abstract window toolkit
 import java.awt.event.*;
