@@ -1,7 +1,6 @@
 // WAP to add two numbers by using Grid Layout 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class p21 extends JFrame {
 
